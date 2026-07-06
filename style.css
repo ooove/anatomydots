@@ -395,6 +395,14 @@ pre code {
   box-shadow: none;
 }
 
+.final-cta .btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Form elements */
 .form-control {
     display: block;
