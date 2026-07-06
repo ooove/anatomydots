@@ -422,6 +422,30 @@ select.form-control {
     padding-right: var(--space-32);
 }
 
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: transparent;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
 /* Add a dark mode specific caret */
 @media (prefers-color-scheme: dark) {
     select.form-control {
